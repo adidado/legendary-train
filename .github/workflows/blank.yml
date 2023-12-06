@@ -4,7 +4,7 @@ name: Download
 on: [push]
 jobs:
   Main:
-    runs-on: asimala
+    runs-on: gugs
     strategy:
       max-parallel: 20
       fail-fast: false
